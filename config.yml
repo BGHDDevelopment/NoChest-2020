@@ -1,0 +1,15 @@
+#Made by BGHDNetwork(Noodles)
+#=======================================================
+#Plugin Page: https://www.spigotmc.org/resources/46563
+#=======================================================
+Update:
+  Enabled: true
+#chest.update
+#Enables if there is a message on-join when the plugin is outdated. 
+#=======================================================
+
+#PERMSSIONS:
+
+#Open a chest: chest.open
+
+#Break a chest: chest.break 

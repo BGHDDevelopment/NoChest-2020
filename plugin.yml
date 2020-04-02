@@ -1,0 +1,5 @@
+main: me.noodles.chestbreak.MainChest
+name: NoChest
+version: 0.3
+author: BGHDNetwork(Noodles)
+commands:
