@@ -4,11 +4,11 @@ import java.io.*;
 
 public class UpdateChecker
 {
-    public MainChest plugin;
+    public Chestbreak plugin;
     public String version;
     
     
-    public UpdateChecker(MainChest plugin) {
+    public UpdateChecker(Chestbreak plugin) {
         this.plugin = plugin;
         this.version = this.getLatestVersion();
     }

@@ -13,14 +13,14 @@ import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.PluginDescriptionFile;
 import org.bukkit.plugin.java.JavaPlugin;
 
-public class MainChest extends JavaPlugin implements Listener {
+public class Chestbreak extends JavaPlugin implements Listener {
 
-    public static MainChest plugin;
+    public static Chestbreak plugin;
     private UpdateChecker checker;
 	
 	
     public void onEnable() {
-    	MainChest.plugin = this;
+    	Chestbreak.plugin = this;
         final PluginDescriptionFile VarUtilType = this.getDescription();
         this.getLogger().info("NoChest V" + VarUtilType.getVersion() + " starting...");
         this.saveDefaultConfig();
@@ -36,7 +36,7 @@ public class MainChest extends JavaPlugin implements Listener {
                 getServer().getConsoleSender().sendMessage("------------------------");
                 getServer().getConsoleSender().sendMessage("No Chest is outdated!");
                 getServer().getConsoleSender().sendMessage("Newest version: " + this.checker.getLatestVersion());
-                getServer().getConsoleSender().sendMessage("Your version: " + MainChest.plugin.getDescription().getVersion());
+                getServer().getConsoleSender().sendMessage("Your version: " + Chestbreak.plugin.getDescription().getVersion());
                 getServer().getConsoleSender().sendMessage("Please Update Here: https://www.spigotmc.org/resources/46563");
                 getServer().getConsoleSender().sendMessage("------------------------");
             }
@@ -78,8 +78,8 @@ public class MainChest extends JavaPlugin implements Listener {
 	    }
 	    
 	    @SuppressWarnings({ "unchecked", "rawtypes"})
-		public static MainChest getPlugin() {
-	        return (MainChest)getPlugin((Class)MainChest.class);
+		public static Chestbreak getPlugin() {
+	        return (Chestbreak)getPlugin((Class) Chestbreak.class);
 	    }
 	
 	

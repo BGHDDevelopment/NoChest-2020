@@ -1,0 +1,5 @@
+name: NoChest
+version: ${project.version}
+main: me.noodles.chestbreak.Chestbreak
+authors: [BGHDDevelopment]
+website: https://bghddevelopment.com/
