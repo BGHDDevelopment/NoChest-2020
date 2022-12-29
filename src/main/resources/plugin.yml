@@ -1,5 +1,5 @@
 name: NoChest
-version: ${project.version}
-main: me.noodles.chestbreak.Chestbreak
-authors: [BGHDDevelopment]
+version: 0.4
+main: com.bghddevelopment.chest.NoChest
+author: BGHDDevelopmentLLC
 website: https://bghddevelopment.com/
